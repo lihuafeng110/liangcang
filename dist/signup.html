@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>注册页面</title>
+      <link rel="stylesheet" href="./css/signup.css">
+      <link rel="stylesheet" href="./assert/font_1/iconfont.css">
+</head>
+<body>
+      <!-- 大盒子 -->
+     <div class="signup">
+           <div class="logo">
+                 <a href="./index.html"> <img src="https://www.iliangcang.com/images/default/logo_icon.png" alt=""></a>
+           </div>
+           <div class="phoneNmuber">
+                <div class="phoneNmuber_l l">手机号</div>
+                <div class="phoneNmuber_r l"><input type="text" name="" id="username" placeholder="请输入手机号" autocomplete="off"></div>
+           </div>
+           <div class="safeCode">
+                 <div class="safeCode_l l">验证码</div>
+                 <div class="safeCode_c l"><input type="text" name="" id="" placeholder="输入验证码" autocomplete="off"></div>
+                 <div class="safeCode_img l"><img src="https://www.iliangcang.com/i/authcode/5560/" alt=""></div>
+                 <div class="safeCode_r l"><a href="">看不清,换一张</a></div>
+           </div>
+           <div class="createPassword">
+                 <div class="createPassword_l l">创建密码</div>
+                 <div class="createPassword_c l"><input type="text" name="" id="password" placeholder="6－20位字符组成，区分大小写" autocomplete="off"></div>
+                 <div class="createPassword_r l">
+                       <div class="c_t"></div>
+                       <div class="c_b">
+                             <div class="c_1">弱</div>
+                             <div class="c_2">中</div>
+                             <div class="c_3">强</div>
+                       </div>
+                 </div>
+           </div>
+           <div class="confirmPassword">
+                <div class="confirmPassword_l l">密码确认</div>
+                <div class="confirmPassword_r l"><input type="text" name="" id="" placeholder="确认密码" autocomplete="off"></div>
+           </div>
+           <div class="check">
+                 <input type="checkbox">
+                 <p>同意</p>
+                 <a href="">良仓注册条款</a>
+           </div>
+           <input type="submit" value="立即注册" class="registerBtn" id="register">
+           <div class="loginIcon">
+                  <a href=""  title='QQ'><i class="iconfont">&#xe71f;</i></a>
+			<a href="" title='新浪微博'><i class="iconfont">&#xe504;</i></a>
+			<a href=""  title='豆瓣'><i class="iconfont">&#xe60e;</i></a>
+                  <a href="" title='腾讯微博'><i class="iconfont">&#xe644;</i></a>
+                  <div class="register"><a href="./signin.html">登录良仓</a></div>
+            </div>
+            <div class="alert">
+                  <p id="login_suc">注册成功我们会在两秒钟后为您跳转到登录页面</p>
+                  <p id="login_err" >用户名重名</p>
+            </div>
+     </div>
+</body>
+      <script src="./javascripts/./jQuery.js"></script>
+      <script src="./javascripts/./common.js"></script>
+      <script src="./javascripts/./signup.js"></script>
+</html>

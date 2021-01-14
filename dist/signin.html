@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>登录页面</title>
+      <link rel="stylesheet" href="./css/./signin.css">
+      <link rel="stylesheet" href="./assert/./font_1/iconfont.css">
+</head>
+<body>
+      <!-- 大盒子 -->
+      <div class="signin">
+            <div class="logo">
+                 <a href="./index.html"> <img src="https://www.iliangcang.com/images/default/logo_icon.png" alt=""></a>
+            </div>
+            <div class="username">
+                  <div class="username_l"><i class="iconfont">&#xe786;</i></div>
+                  <input type="text" name="" id="username" placeholder="用户名/邮箱/手机号" autocomplete="off">
+            </div>
+            <div class="password">
+                  <div class="password_l"><i class="iconfont">&#xe62e;</i></div>
+                  <input type="text" name="" id="password" placeholder="密码" autocomplete="off">
+            </div>
+            <div class="check">
+                  <input type="checkbox">
+                  <p>自动登录</p>
+                  <a href="">忘记密码?</a>
+            </div>
+            <input type="submit" value="登录良仓" class="loginBtn" id="login">
+            <div class="loginIcon">
+                  <a href=""  title='QQ'><i class="iconfont">&#xe71f;</i></a>
+			<a href="" title='新浪微博'><i class="iconfont">&#xe504;</i></a>
+			<a href=""  title='豆瓣'><i class="iconfont">&#xe60e;</i></a>
+                  <a href="" title='腾讯微博'><i class="iconfont">&#xe644;</i></a>
+                  <div class="register"><a href="./signup.html">注册良仓</a></div>
+            </div>
+            <div class="alert">
+                  <p id="login_suc">登录成功我们会在两秒钟后为您跳转到主页</p>
+                  <p id="login_err" >账号和密码不正确，请重新输入</p>
+             </div>
+      </div> 
+</body>
+      <script src="./javascripts/./jQuery.js"></script>
+      <script src="./javascripts/./common.js"></script>
+      <script src="./javascripts/./signin.js"></script>
+</html>

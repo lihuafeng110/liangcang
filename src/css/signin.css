@@ -1,0 +1,282 @@
+@charset "UTF-8";
+/*全局样式*/
+body, p, ul, ol, td, th, dl, dd, fieldset, h1, h2, h3, h4, h5, h6, input, legend, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a, ul {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+strong, b {
+  font-weight: normal;
+}
+
+em, i {
+  font-style: normal;
+}
+
+img, fieldset {
+  border: 0;
+}
+
+body {
+  font: 12px "微软雅黑";
+}
+
+textarea {
+  resize: none;
+}
+
+input, a {
+  outline: none;
+}
+
+.l {
+  float: left;
+}
+
+.r {
+  float: right;
+}
+
+.borderNo {
+  border: none !important;
+}
+
+/*万能清除法*/
+.Bothclear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+body {
+  background: #999999;
+}
+
+.signin {
+  width: 310px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.signin .logo {
+  width: 226px;
+  height: 100px;
+  margin: 0 auto;
+}
+.signin .logo img {
+  width: 226px;
+  height: 100px;
+}
+.signin .username {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: #cccccc;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.signin .username .username_l {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #f4f4f4;
+  float: left;
+  border-right: 1px solid #f4f4f4;
+}
+.signin .username .username_l i {
+  font-size: 24px;
+  font-weight: bold;
+}
+.signin .username input {
+  width: 235px;
+  height: 30px;
+  text-align: start;
+  float: left;
+  padding-left: 10px;
+  border-style: none;
+  background: #cccccc;
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color: #fefefe;
+}
+.signin .username ::-webkit-input-placeholder {
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color: #fefefe;
+  font-weight: bold;
+}
+.signin .password {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: #cccccc;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.signin .password .password_l {
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #f4f4f4;
+  float: left;
+  border-right: 1px solid #f4f4f4;
+}
+.signin .password .password_l i {
+  font-size: 24px;
+  font-weight: bold;
+}
+.signin .password input {
+  width: 235px;
+  height: 30px;
+  text-align: start;
+  float: left;
+  padding-left: 10px;
+  border-style: none;
+  background: #cccccc;
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color: #fefefe;
+}
+.signin .password ::-webkit-input-placeholder {
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color: #fefefe;
+  font-weight: bold;
+}
+.signin .check {
+  width: 300px;
+  height: 13px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.signin .check input {
+  width: 13px;
+  height: 13px;
+  float: left;
+  margin-right: 2px;
+}
+.signin .check p {
+  width: 48px;
+  height: 13px;
+  float: left;
+  color: #fff;
+  line-height: 13px;
+}
+.signin .check a {
+  width: 60px;
+  height: 13px;
+  float: right;
+  color: #fff;
+  line-height: 13px;
+}
+.signin .loginBtn {
+  display: block;
+  width: 300px;
+  height: 50px;
+  background: #25292e;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 9px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.signin .loginIcon {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.signin .loginIcon a {
+  display: block;
+  float: left;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: #d9d9d9;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.signin .loginIcon a i {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: #d9d9d9;
+  font-size: 25px;
+  margin-right: 8px;
+}
+.signin .loginIcon .register a {
+  width: 56px;
+  height: 23px;
+  line-height: 23px;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #ffffff;
+  color: #fff;
+  margin-top: 2px;
+}
+.signin .alert {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.signin .alert #login_suc {
+  width: 300px;
+  height: 40px;
+  background: green;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.signin .alert #login_err {
+  width: 300px;
+  height: 40px;
+  background: red;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.loginIcon a:hover i {
+  color: #ccc;
+}
+
+#login_suc {
+  display: none;
+}
+
+#login_err {
+  display: none;
+}

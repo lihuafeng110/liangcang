@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>详情页</title>
+      <link rel="stylesheet" href="./css/detail.css">
+      <link rel="stylesheet" href="./assert/font/iconfont.css">
+</head>
+<body>
+      <!-- 导航栏 -->
+      <div class="headerwrap">
+            <div class="header">
+                  <div class="logo l">
+                        <a href="./index.html"></a>
+                  </div>
+                  <ul class="nav r">
+                        <li class="logined l">
+                              <a href="">用户账号</a>
+                              <a id="logout" href="">退出登录</a>
+                        </li>
+                        <li class="login l"><a href="./signin.html">登录</a></li>
+                        <li class="register l"><a href="./signup.html">注册</a></li>
+                        <li class="line l"></li>
+                        <li class="shop l">
+                              <a href=""><i>购物车</i> <p class="jishu">0</p></a>
+                              <div class="gouwuche">
+                                   <div class="gouwuche_1">你的购物车暂时没有商品...</div>
+                                   <div class="gouwuche_2"><i><a href="">快去抢购良仓商品吧!</a></i></div>
+                              </div>
+                        </li>
+                        <li class="line l"></li>
+                        <li class="message l">
+                              <a href="">消息</a>
+                              <div class="mes">
+                                    <b><a href="">动态<i>0</i></a></b>
+                                    <b><a href="">评论<i>0</i></a></b>
+                                    <b><a href="">私信<i>0</i></a></b>
+                                    <b><a href="">粉丝<i>0</i></a></b>
+                                    <b><a href="">喜欢<i>0</i></a></b>
+                                    <b><a href="">通知<i>0</i></a></b>
+                              </div>
+                           </li>
+                        <li class="line l"></li>
+                        <li class="add l"><a href="">添加良品</a></li>
+                        <li class="rule l"><a href="">资质证照/协议规则</a></li>
+                  </ul>
+            </div>
+      </div>
+      <!-- 菜单栏 -->
+      <div class="menuwrap">
+            <div class="menu">
+                  <ul class="l">
+                        <li class="subLi"><a href="./index.html" class="biga">首页</a></li>
+                        <li class="subLi shangdian">
+                              <a href="./list.html" class="biga">商店</a>
+                              <div class="sd">
+                                 <div class="tubiao l">
+                                       <div class="tubiao1">
+                                             <div><a href=""><i class="iconfont">&#xe64b;</i><b>家居</b></a></div>
+                                             <div><a href=""><i class="iconfont">&#xe652;</i><b>文具</b></a></div>
+                                             <div><a href=""><i class="iconfont">&#xe61b;</i><b>数码</b></a></div>
+                                             <div><a href=""><i class="iconfont">&#xe624;</i><b>玩乐</b></a></div>
+                                             <div><a href=""><i class="iconfont">&#xe601;</i><b>餐厨</b></a></div>
+                                             <div><a href=""><i class="iconfont">&#xe604;</i><b>美食</b></a></div>
+                                             <div><a href=""><i class="iconfont">&#xe628;</i><b>服装</b></a></div>
+                                       </div>
+                                       <div class="tb1">
+                                             <div>
+                                                <a href=""><b>家具</b><b>居家日用</b><b>装饰摆件</b><b>香薰香氛</b><b>空气净化</b><b>收纳整理</b><b>床品布艺</b><b>家庭清洁</b><b>儿童家具</b><b>灯具</b><b>家用电器</b><b>植物花器</b></a>
+                                             </div>
+                                             <div>
+                                                <a href=""><b>办公用品</b><b>纸本</b><b>笔具</b><b>书签</b><b>台历挂历</b></a>
+                                             </div>
+                                             <div>
+                                                <a href=""><b>耳机</b><b>音箱</b><b>手机壳</b><b>手机配件</b><b>移动电源</b><b>智能设备</b><b>电脑配件</b><b>车载配件</b></a>
+                                             </div>
+                                             <div>
+                                                <a href=""><b>玩具</b><b>玩偶</b><b>益智棋牌</b></a>
+                                             </div>
+                                             <div>
+                                                <a href=""><b>厨房清洁</b><b>厨用电器</b><b>锅</b></a>
+                                             </div>
+                                             <div>
+                                                <a href=""><b>美酒</b><b>零食</b><b>装饰摆件</b><b>巧克力</b><b>咖啡</b><b>茶</b><b>健康养生</b><b>地方特产</b></a>
+                                             </div>
+                                             <div>
+                                                <a href=""><b>女装</b><b>内衣</b><b>男装</b><b>家居服</b><b>运动服</b><b>童装</b></a>
+                                             </div>
+                                      </div>
+      
+                                       <div class="tubiao2">
+                                            <div><a href=""><i class="iconfont">&#xe670;</i><b>鞋包</b></a></div>
+                                            <div><a href=""><i class="iconfont">&#xe854;</i><b>配饰</b></a></div>
+                                            <div><a href=""><i class="iconfont">&#xe67b;</i><b>美护</b></a></div>
+                                            <div><a href=""><i class="iconfont">&#xe85b;</i><b>出行</b></a></div>
+                                            <div><a href=""><i class="iconfont">&#xe50c;</i><b>图书</b></a></div>
+                                            <div><a href=""><i class="iconfont">&#xe7e2;</i><b>艺术</b></a></div>
+                                            <div><a href=""><i class="iconfont">&#xe688;</i><b>水具</b></a></div>
+                                       </div>
+                                       <div class="tb2">
+                                          <div>
+                                             <a href=""><b>男鞋</b><b>女鞋</b><b>双肩包</b><b>单肩包</b><b>钱包</b><b>手提包</b><b>手拿包</b><b>帆布袋</b></a>
+                                          </div>
+                                          <div>
+                                             <a href=""><b>项链</b><b>戒指</b><b>耳饰</b><b>手链手镯</b><b>手表</b><b>眼镜</b><b>丝巾围巾</b><b>袜子</b></a>
+                                          </div>
+                                          <div>
+                                             <a href=""><b>洗发护发</b><b>身体护理</b><b>香水精油</b><b>唇部护理</b><b>手工皂</b><b>指甲油</b><b>男士护肤</b><b>防晒霜</b><b>母婴专用</b><b>美容工具</b><b>面部护理</b><b>手足护理</b><b>化妆品</b><b>口腔清洁</b><b>洁面</b></a>
+                                          </div>
+                                          <div>
+                                             <a href=""><b>户外装备</b><b>旅行收纳</b><b>行李箱</b><b>雨具</b><b>出行工具</b></a>
+                                          </div>
+                                          <div>
+                                             <a href=""><b>文学社科</b><b>建筑艺术</b><b>生活方式</b><b>杂志期刊</b><b>儿童读物</b></a>
+                                          </div>
+                                          <div>
+                                             <a href=""><b>装饰画</b><b>雕塑</b><b>摄影</b><b>文化创意</b></a>
+                                          </div>
+                                          <div>
+                                             <a href=""><b>水杯</b><b>水壶</b><b>保温杯</b><b>茶具</b><b>咖啡器具</b><b>马克杯</b><b>随行杯</b><b>酒具</b></a>
+                                          </div>
+                                       </div>
+      
+                                       <div class="tubiao3">
+                                            <div><a href="" class="jiaju"><i class="iconfont">&#xe627;</i><b>运动</b></a></div>
+                                       </div>
+                                       <div class="tb3">
+                                          <div>
+                                             <a href=""><b>运动装备</b><b>运动服饰</b><b>运动器材</b><b>健康轻食</b></a>
+                                          </div>
+                                       </div>
+                                 </div>
+                                 <div class="tupian l">
+                                       <div class="tp">
+                                             <img src="https://image.iliangcang.com/ware/upload/orig/2/315/315574.jpg" alt="">
+                                       </div>
+                                       <div class="tl">
+                                             新视野: 2 0 1 5 年 7 月 刊
+                                       </div>
+                                 </div>
+                                 <div class="over l">
+                                       <a href="">查看所有品牌 ></a>
+                                       <a href="">最新到货 ></a>
+                                 </div>
+                              </div>
+                        </li>
+                        <li class="subLi zazhi">
+                              <a href="" class="biga">杂志</a>
+                              <div class="zz">
+                                    <a href="" class="smalla">趣物</a>
+                                    <a href="" class="smalla">数码</a>
+                                    <a href="" class="smalla">汽车</a>
+                                    <a href="" class="smalla">文化</a>
+                                    <a href="" class="smalla">时尚</a>
+                                    <a href="" class="smalla">美食</a>
+                                    <a href="" class="smalla">建筑</a>
+                                    <a href="" class="smalla">空间</a>
+                                    <a href="" class="smalla">圈子</a>
+                                    <a href="" class="smalla">清单</a>
+                                    <a href="" class="smalla">活动</a>
+                                    <a href="" class="smalla">视频</a>
+                              </div>
+                        </li>
+                        <li class="subLi fenxiang">
+                              <a href="" class="biga">分享</a>
+                              <div class="fx">
+                                    <a href="" class="smalla">男士</a>
+                                    <a href="" class="smalla">家居</a>
+                                    <a href="" class="smalla">数码</a>
+                                    <a href="" class="smalla">工具</a>
+                                    <a href="" class="smalla">玩具</a>
+                                    <a href="" class="smalla">美容</a>
+                                    <a href="" class="smalla">孩子</a>
+                                    <a href="" class="smalla">宠物</a>
+                                    <a href="" class="smalla">饮食</a>
+                                    <a href="" class="smalla">运动</a>
+                                    <a href="" class="smalla">文化</a>
+                                    <a href="" class="smalla">女士</a>
+                              </div>
+                        </li>
+                        <li class="subLi"><a href="" class="biga">达人</a></li>
+                  </ul>
+                  <div class="search r">
+                        <input class="sea_l l" type="text" placeholder="search...">
+                        <!-- placeholder="search..." input内容默认显示 -->
+                        <div class="sea_r r"><i class="iconfont">&#xe66e;</i></div>
+                  </div>
+            </div>
+      </div>
+      <!-- 商品详情 -->
+      <div class="shopdetail">
+            
+                  <!-- <div class="detail_head">
+                        <em>良仓 >  美食 > <a href="">零食 > </a><i>小花曲奇礼盒</i></em>
+                        <div class="detail_body">
+                              <div class="middle-picture l">
+                                 <div class="big-img">
+                                        <img src="https://imgs-qn.iliangcang.com/ware/goods/big/2/257/257295.jpg?t=1492079721" alt="">
+                                 </div>
+                                 <div class="small-img">
+                                    <img src="https://imgs-qn.iliangcang.com/ware/goods/big/2/257/257295.jpg?t=1492079721" alt="">
+                                    <div class="tiemo"></div>
+                                 </div>
+                                 <div class="focus"></div>
+                                 <div class="btn-img">
+                                     <img src="https://imgs-qn.iliangcang.com/ware/goods/big/2/257/257295.jpg?t=1492079721" alt="">
+                                 </div>
+                              </div>
+                              <div class="middle-content l">
+                                   <div class="shop-dianzan">1259</div>
+                                   <div class="shop-produce">AKOKO</div>
+                                   <div class="shop-jieshao">小花曲奇礼盒 | 舒软香脆 入口酥化</div>
+                                   <div class="shop-price">价格: <i>188元</i> </div>
+                                   <div class="shop-safe">
+                                         <span class="safe1">免运费</span>
+                                         <span class="safe2">正版授权</span>
+                                    </div>
+                                   <div class="shop-type">
+                                         口味:
+                                         <p>种类1</p>
+                                         <p>种类2</p>
+                                   </div>
+                                   <div class="shop-count">
+                                         数量
+                                   </div>
+                                   <div class="shop-buy">
+                                         立即购买
+                                   </div>
+                                   <div class="shop-gouwu">
+                                         加入购物车
+                                   </div>
+                              </div>
+                        </div>
+                  </div> -->
+      </div>
+      <!-- 图片 -->
+      <div class="picture">
+            <img class="img1" src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20170413/1492077991465555.jpg" alt="">
+            <img class="img2" src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20170413/1492077993981662.jpg" alt="">
+            <img class="img3" src="https://imgs-qn.iliangcang.com//ware/ueditor/image/20170413/1492078002751723.jpg" alt="">
+      </div>
+      <!-- bottom -->
+      <div class="bottomwrap">
+            <div class="bottom">
+                  <div class="bottom_title">
+                  <a class="hand" href=""><p class="move"></p> 良仓商店/OUR SHOP</a>
+                  </div>
+                  <div class="bottom_content">
+                       <div class="bc1">
+                             <div class="bc_img1"></div>
+                             <div class="bc_c">
+                                   <h5>全球精品</h5>
+                                   <h6>Global Selections</h6>
+                             </div>
+                       </div>
+                       <div class="bc2">
+                              <div class="bc_img2"></div>
+                              <div class="bc_c">
+                                    <h5>正品保证</h5>
+                                    <h6>Authenticity Guaranteed</h6>
+                              </div>
+                        </div>
+                       <div class="bc3">
+                              <div class="bc_img3"></div>
+                              <div class="bc_c">
+                                    <h5>全场包邮</h5>
+                                    <h6>Free Delivery</h6>
+                              </div>  
+                        </div>
+                       <div class="bc4">
+                              <div class="bc_img4"></div>
+                              <div class="bc_c">
+                                    <h5>400-897-6336</h5>
+                                    <h6>工作日 09:00-18:00</h6>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <!-- copy -->
+      <div class="copywrap">
+                  <div class="copy">
+                        <div class="copy_l l">
+                              <div class="download">
+                                    <p class="iphone"><a href=""></a></p>
+                                    <div class="text">
+                                          <h5 id="ccc">iPhone Android</h5>
+                                          <h6 id="ccc">客户端下载</h6>
+                                    </div>
+                                    <div class="download_code">
+                                         <div class="download_iPhone l">
+                                               <div class="iPhone_code"></div>
+                                               <a href="" class="a1">下载iPhone版</a>
+                                         </div>
+                                         <div class="download_middle l"><p></p></div>
+                                         <div class="download_Android r">
+                                               <div class="Android_code"></div>
+                                               <a href="" class="a2">下载Android版</a>
+                                         </div>
+                                    </div>
+                              </div>
+                              <div class="friend">
+                                    <p class="friend_t"><a href="">关于良仓</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">服务协议</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">隐私保护政策</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">使用指南</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">加入我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">友情链接</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">私信良仓</a></p>
+                                    <p>&copy;&nbsp;2013-2019 北京良仓文化传播有限公司版权所有&nbsp;</p>
+                                    <p>&nbsp;&nbsp;公司名称：北京良仓文化传播有限公司&nbsp;&nbsp;电话：010-58696733</p>
+                                    <p>&nbsp;&nbsp;公司地址：北京朝阳区百子湾路32号6号楼1层60号.</p>
+                                    <p>&nbsp;&nbsp;社会信用统一代码：91110105059231575L&nbsp;&nbsp;食品许可证：JY11105160159557&nbsp;&nbsp;</p>
+                                    <p>&nbsp;&nbsp;图书证名称：中华人民共和国出版物经营许可证&nbsp;&nbsp;图书证编号：新出发京零 字第 朝 150051 号&nbsp;&nbsp;</p>
+                                    <p>&nbsp;&nbsp;京|CP备13010677号-1&nbsp;&nbsp;京公网安备11010502025627</p>
+                              </div>
+                        </div>
+                        <div class="copy_r r">
+                              <ul>
+                                    <li><a href=""><i class="iconfont">&#xe60e;</i></a></li>
+                                    <li><a href=""><i class="iconfont">&#xe504;</i></a></li>
+                                    <li class="weixin">
+                                          <a href=""><i class="iconfont">&#xe610;</i></a>
+                                          <div class="wx_code"></div>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+      </div>
+      <!-- 右侧广告栏 -->
+      <div class="advertisement">
+            <img src="https://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/30/30892.png" alt="">
+            <div class="closeBtn"></div>
+      </div>
+      <!-- 回到顶部 -->
+      <div class="BacktoTop">
+            <a href="javascript:void(0)"></a>
+      </div>
+      <!-- 练习客服 -->
+      <!-- 底部聊天对话框 -->
+      <div class="CustomerService">
+            <a href="javascript:void(0)" class="openchat"><i class="iconfont">&#xe503;</i> 联系客服</a>
+            <div class="chat">
+                  <div class="chat_head"><p>良仓</p><i class="closechat">-</i></div>
+                  <ul class="content">
+                        <li class="msgContent left">hello?</li>
+                        <div style="clear: both;"></div>
+                        <li class="msgContent right">hello!</li>
+                        <div style="clear: both;"></div>
+                  </ul>
+                  <textarea  class="textarea" placeholder="点击输入内容..." ></textarea>
+                  <button  class="sendbtn">发送</button>
+            </div>
+      </div>
+
+</body>
+      <script src="./javascripts/jQuery.js"></script>
+      <script src="./javascripts/./common.js"></script>
+      <script src="./javascripts/./detail.js"></script>
+      <script src="./javascripts/./shopCart.js"></script>
+</html>

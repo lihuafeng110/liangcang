@@ -1,0 +1,392 @@
+@charset "UTF-8";
+/*全局样式*/
+body, p, ul, ol, td, th, dl, dd, fieldset, h1, h2, h3, h4, h5, h6, input, legend, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a, ul {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+strong, b {
+  font-weight: normal;
+}
+
+em, i {
+  font-style: normal;
+}
+
+img, fieldset {
+  border: 0;
+}
+
+body {
+  font: 12px "微软雅黑";
+}
+
+textarea {
+  resize: none;
+}
+
+input, a {
+  outline: none;
+}
+
+.l {
+  float: left;
+}
+
+.r {
+  float: right;
+}
+
+.borderNo {
+  border: none !important;
+}
+
+/*万能清除法*/
+.Bothclear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+body {
+  background: #999999;
+}
+
+.signup {
+  width: 544px;
+  height: 573px;
+  margin: 200px auto 0;
+}
+.signup .logo {
+  width: 226px;
+  height: 100px;
+  margin: 0 auto;
+}
+.signup .logo img {
+  width: 226px;
+  height: 100px;
+}
+.signup .phoneNmuber {
+  width: 544px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.signup .phoneNmuber .phoneNmuber_l {
+  width: 76px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.signup .phoneNmuber .phoneNmuber_r {
+  width: 320px;
+  height: 50px;
+}
+.signup .phoneNmuber .phoneNmuber_r input {
+  width: 320px;
+  height: 50px;
+  border-style: none;
+  padding-left: 20px;
+  line-height: 50px;
+  color: #fff;
+  font-weight: bold;
+  background: #ccc;
+}
+.signup .phoneNmuber .phoneNmuber_r ::-webkit-input-placeholder {
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color: #fefefe;
+  font-weight: bold;
+}
+.signup .safeCode {
+  width: 544px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.signup .safeCode .safeCode_l {
+  width: 76px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.signup .safeCode .safeCode_c {
+  width: 225px;
+  height: 50px;
+}
+.signup .safeCode .safeCode_c input {
+  width: 225px;
+  height: 50px;
+  border-style: none;
+  padding-left: 20px;
+  line-height: 50px;
+  color: #fff;
+  font-weight: bold;
+  background: #ccc;
+}
+.signup .safeCode .safeCode_c ::-webkit-input-placeholder {
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color: #fefefe;
+  font-weight: bold;
+}
+.signup .safeCode .safeCode_img {
+  width: 64px;
+  height: 28px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.signup .safeCode .safeCode_img img {
+  width: 64px;
+  height: 28px;
+}
+.signup .safeCode .safeCode_r {
+  width: 84px;
+  height: 16px;
+  margin-top: 15px;
+  line-height: 16px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.signup .safeCode .safeCode_r a {
+  width: 84px;
+  height: 16px;
+  line-height: 16px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+.signup .createPassword {
+  width: 544px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.signup .createPassword .createPassword_l {
+  width: 76px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.signup .createPassword .createPassword_c {
+  width: 320px;
+  height: 50px;
+  background: pink;
+}
+.signup .createPassword .createPassword_c input {
+  width: 320px;
+  height: 50px;
+  border-style: none;
+  padding-left: 20px;
+  line-height: 50px;
+  color: #fff;
+  font-weight: bold;
+  background: #ccc;
+}
+.signup .createPassword .createPassword_c ::-webkit-input-placeholder {
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color: #fefefe;
+  font-weight: bold;
+}
+.signup .createPassword .createPassword_r {
+  width: 80px;
+  height: 30px;
+  margin-top: 14px;
+  margin-left: 25px;
+}
+.signup .createPassword .createPassword_r .c_t {
+  width: 80px;
+  height: 10px;
+  background: #fff;
+}
+.signup .createPassword .createPassword_r .c_b {
+  width: 80px;
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.signup .createPassword .createPassword_r .c_b div {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #4c4c4c;
+  font-size: 10px;
+}
+.signup .confirmPassword {
+  width: 544px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.signup .confirmPassword .confirmPassword_l {
+  width: 76px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.signup .confirmPassword .confirmPassword_r {
+  width: 320px;
+  height: 50px;
+  background: pink;
+}
+.signup .confirmPassword .confirmPassword_r input {
+  width: 320px;
+  height: 50px;
+  border-style: none;
+  padding-left: 20px;
+  line-height: 50px;
+  color: #fff;
+  font-weight: bold;
+  background: #ccc;
+}
+.signup .confirmPassword .confirmPassword_r ::-webkit-input-placeholder {
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color: #fefefe;
+  font-weight: bold;
+}
+.signup .check {
+  width: 300px;
+  height: 14px;
+  margin-left: 93px;
+  margin-top: 33px;
+}
+.signup .check input {
+  float: left;
+  margin-top: 1px;
+}
+.signup .check p {
+  height: 14px;
+  line-height: 14px;
+  float: left;
+  margin-left: 6px;
+  color: #fff;
+}
+.signup .check a {
+  height: 14px;
+  line-height: 14px;
+  float: left;
+  margin-left: 6px;
+  color: #0c79cc;
+}
+.signup .registerBtn {
+  display: block;
+  width: 340px;
+  height: 50px;
+  background: #25292e;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 9px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  margin-left: 93px;
+}
+.signup .loginIcon {
+  width: 340px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-left: 93px;
+}
+.signup .loginIcon a {
+  display: block;
+  float: left;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: #d9d9d9;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.signup .loginIcon a i {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: #d9d9d9;
+  font-size: 25px;
+  margin-right: 8px;
+}
+.signup .loginIcon .register a {
+  width: 56px;
+  height: 23px;
+  line-height: 23px;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #ffffff;
+  color: #fff;
+  margin-top: 2px;
+}
+.signup .alert {
+  width: 340px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-left: 93px;
+}
+.signup .alert #login_suc {
+  width: 340px;
+  height: 40px;
+  background: green;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.signup .alert #login_err {
+  width: 340px;
+  height: 40px;
+  background: red;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+#login_suc {
+  display: none;
+}
+
+#login_err {
+  display: none;
+}
